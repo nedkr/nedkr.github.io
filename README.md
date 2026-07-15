@@ -14,3 +14,5 @@ npm run dev
 ```
 
 `main` 브랜치에 푸시하면 GitHub Pages로 자동 배포됩니다.
+
+공개 주소: https://nedkr.github.io/
