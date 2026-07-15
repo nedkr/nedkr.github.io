@@ -64,13 +64,13 @@ const hopeLines = [
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content="SK하이닉스 주가 흐름, 하락 이유, 상승 촉매를 직장인 주주 밈으로 보는 비공식 희망회로 발전소" />
-    <meta property="og:title" content="HBM 희망회로 발전소" />
-    <meta property="og:description" content="계좌는 냉각 중, HBM은 과열 중. 하이닉스 주주의 웃픈 생존 보고서." />
+    <meta property="og:title" content="하이닉스 희망회로 발전소" />
+    <meta property="og:description" content="계좌는 냉각 중, 하이닉스는 반등 대기 중. 하이닉스 주주의 웃픈 생존 보고서." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://nedkr.github.io/hynix_all/" />
     <meta name="twitter:card" content="summary" />
     <meta name="theme-color" content="#ff2f45" />
-    <title>HBM 희망회로 발전소</title>
+    <title>하이닉스 희망회로 발전소</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Dodum&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
@@ -86,7 +86,7 @@ const hopeLines = [
     <header class="nav shell">
       <a class="brand" href="#top" aria-label="처음으로">
         <span class="brand-mark">H</span>
-        <span>HBM 희망회로<br /><small>HIGH BANDWIDTH MENTAL</small></span>
+        <span>하이닉스 희망회로<br /><small>HYNIX HOLDER MENTAL</small></span>
       </a>
       <nav aria-label="주요 메뉴">
         <a href="#why">왜 빠졌나</a>
@@ -100,7 +100,7 @@ const hopeLines = [
       <section class="hero shell">
         <div class="hero-copy">
           <p class="eyebrow"><span></span> Y부장님 전용 주주 멘탈 관제센터</p>
-          <h1>계좌는 <em>냉각 중</em><br />HBM은 <strong>과열 중</strong></h1>
+          <h1>계좌는 <em>냉각 중</em><br />하이닉스는 <strong>반등 대기</strong></h1>
           <p class="lead">목표가 300에서 시작된 장대한 다이어트.<br />그래도 희망회로를 폐기하기엔 기술 로드맵이 너무 뜨겁다.</p>
           <div class="hero-actions">
             <a class="primary-button" href="#generator">희망회로 긴급 가동</a>
@@ -203,7 +203,7 @@ const hopeLines = [
           <div class="power-note"><span>현재 출력</span><strong id="powerText">92%</strong><div><i id="powerBar"></i></div></div>
         </div>
         <div class="generator-machine">
-          <div class="machine-top"><span class="status-light"></span> HBM MENTAL RECOVERY SYSTEM <b>ONLINE</b></div>
+          <div class="machine-top"><span class="status-light"></span> HYNIX MENTAL RECOVERY SYSTEM <b>ONLINE</b></div>
           <div class="quote-screen">
             <span>오늘의 회로 출력</span>
             <blockquote id="hopeQuote">“계좌는 저전력 모드지만 HBM은 고대역폭입니다.”</blockquote>
@@ -233,7 +233,7 @@ const hopeLines = [
 
     <footer>
       <div class="shell footer-inner">
-        <div><strong>HBM 희망회로 발전소</strong><p>SK하이닉스와 무관한 비공식 풍자 사이트입니다.</p></div>
+        <div><strong>하이닉스 희망회로 발전소</strong><p>SK하이닉스와 무관한 비공식 풍자 사이트입니다.</p></div>
         <div class="disclaimer"><b>투자 유의</b><p>과거 주가는 미래 수익을 보장하지 않습니다. 모든 투자 판단과 희망회로 수리비는 본인 책임입니다.</p></div>
         <a href="#top">맨 위로 ↑</a>
       </div>
@@ -315,7 +315,7 @@ const hopeLines = [
       const toast = document.getElementById('toast');
       document.getElementById('share').addEventListener('click', async () => {
         try {
-          if (navigator.share) await navigator.share({ title: document.title, text: '계좌는 냉각 중, HBM은 과열 중', url: location.href });
+          if (navigator.share) await navigator.share({ title: document.title, text: '계좌는 냉각 중, 하이닉스는 반등 대기 중', url: location.href });
           else await navigator.clipboard.writeText(location.href);
           toast.classList.add('show');
           setTimeout(() => toast.classList.remove('show'), 2200);
